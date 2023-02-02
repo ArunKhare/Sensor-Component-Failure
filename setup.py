@@ -16,12 +16,11 @@ def get_requirements()->List[str]:
     return requirement_list
 
 
-
 setup(
     name="sensor",
     version="0.0.2",
-    author="ineuron",
-    author_email="avnish@ineuron.ai",
+    author="arunkhare",
+    author_email="arunvkhare@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )

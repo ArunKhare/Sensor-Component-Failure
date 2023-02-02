@@ -80,7 +80,7 @@ class DataValidation:
             drift_report=dict()
 
             base_columns = base_df.columns
-            current_columns = current_df.columns
+            # current_columns = current_df.columns
 
             for base_column in base_columns:
                 base_data,current_data = base_df[base_column],current_df[base_column]
