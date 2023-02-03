@@ -99,3 +99,6 @@ ECR_REPOSITORY_NAME=
 BUCKET_NAME=
 MONGO_DB_URL=
 ```
+```
+pip install apache-airflow[cncf.kubernetes]
+```
