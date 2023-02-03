@@ -1,8 +1,9 @@
 
 from sensor.pipeline.training_pipeline import start_training_pipeline
 
+from config import file_path
 
-file_path="aps_failure_training_set1.csv"
+
 print(__name__)
 if __name__=="__main__":
     try:

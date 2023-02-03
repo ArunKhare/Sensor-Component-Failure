@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 from sensor.config import mongo_client
-
-DATA_FILE_PATH="aps_failure_training_set1.csv"
+from config import file_path
+DATA_FILE_PATH=file_path
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor"
 
