@@ -15,9 +15,8 @@ with DAG(
     schedule_interval="@daily",
     start_date=pendulum.datetime(2022, 12, 11, tz="UTC"),
     catchup=False,
-    tags=['example'],
+    tags=['sensor'],
 ) as dag:
-
     
     def download_files(**kwargs):
         bucket_name = os.getenv("BUCKET_NAME")

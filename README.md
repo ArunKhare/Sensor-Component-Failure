@@ -102,3 +102,10 @@ MONGO_DB_URL=
 ```
 pip install apache-airflow[cncf.kubernetes]
 ```
+```
+for linux
+$(pwd)/airflow/dags
+docker run -p 8080:8080 -v %cd%\airflow\dags:/app/airflow.dags -e "MONGO_DB_URL=mongodb+srv://arunkhare:Sun1%40moon2@cluster0.ta5jvkq.mongodb.net/?" sensor:latest
+```
+
+docker run -p 8080:8080 -v %cd%\airflow\dags:/app/airflow.dags sensor:latest

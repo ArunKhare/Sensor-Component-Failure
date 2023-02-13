@@ -5,7 +5,6 @@ prediction
 saved_models
 *.egg-info
 .env
-batch_prediction.py
 data_dump.py
 main.py
 README.md
@@ -13,3 +12,10 @@ revision.pdf
 test.ipynb
 train.py
 *.csv
+
+venv
+docs
+flowcharts
+notebooks
+.git
+aps_failure_training_set1.csv
